@@ -41,8 +41,10 @@ public class Singleton {
     总结：书写简单，线程不安全，效率还行。
      */
     class SingletonDemo2 {
-
+        //线程不安全
         private static SingletonDemo2 instance;
+        //线程安全
+        //private static SingletonDemo2 instance1 = new SingletonDemo2() ;
 
         private SingletonDemo2() {//私有化构造器
         }
@@ -95,20 +97,19 @@ public class Singleton {
             return instance;
         }
     }
-    /*
+    /**
     JDK1.5之后出现了枚举，并且完美支持单例模式，并且线程安全、效率高！但是这些不是最重要的，
     最重要的是书写超级简单！究竟有多简单，看下面的示例应该就可以了解一下了。。。
      枚举单例
-     */
-
-    enum SingletonDemo5{
+     **/
+    enum SingletionDemo5{
         /*
         定义一个枚举的元素，
          */
         INSTANCE;
 
         //添加自己需要的元素
-        public void singletonOperation(){
+        public void singletionOperation(){
         }
     }
     /**
