@@ -1,7 +1,7 @@
 package cn.pbj.behavior.memento;
 
 /**
- * 源发器类
+ * 源发器类 Originator（发起者）：记录当前的状态，负责创建和恢复备忘录
  */
 public class Emp {
     private String ename;

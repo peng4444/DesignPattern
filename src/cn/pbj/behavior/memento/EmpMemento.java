@@ -1,7 +1,7 @@
 package cn.pbj.behavior.memento;
 
 /**
- * 备忘录类
+ * 备忘录类 Memento（备忘录）：负责存储发起者的状态，在需要的时候提供发起人需要的状态
  */
 public class EmpMemento {
     private String ename;

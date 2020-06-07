@@ -1,0 +1,24 @@
+package cn.pbj.structure.proxy;
+
+/**
+ * @ClassName: Order
+ * @Author: pbj
+ * @Date: 2020/5/31 11:33
+ * @Description: TODO
+ */
+public class Order {
+    private Object orderInfo;
+    private Integer userId;
+    public Object getOrderInfo() {
+        return orderInfo;
+    }
+    public void setOrderInfo(Object orderInfo) {
+        this.orderInfo = orderInfo;
+    }
+    public Integer getUserId() {
+        return userId;
+    }
+    public void setUserId(Integer userId) {
+        this.userId = userId;
+    }
+}

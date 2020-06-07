@@ -1,8 +1,7 @@
 package cn.pbj.behavior.memento;
 
 /**
- * 负责人类
- * 负责管理备忘录对象
+ * 负责人 Caretaker（管理者）：负责管理备忘录对象
  */
 public class CareTaker {
     private EmpMemento empMemento;
