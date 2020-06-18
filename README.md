@@ -32,7 +32,6 @@
 
 [设计模式7大原则](https://www.cnblogs.com/1314xf/p/10122504.html)
 
-
 ## 设计模式有23种类型。按照主要分类可以分为三大类:
 ### 一、创建型模式 
 ```markdown
@@ -271,12 +270,12 @@ ConcreteState（具体状态）：每一子类实现一个与 Context 的一个�
    一个方法返回 NULL，意味着方法的调用端需要去检查返回值是否是 NULL，这么做会导致非常多的冗余的检查代
    码。并且如果某一个调用端忘记了做这个检查返回值，而直接使用返回的对象，那么就有可能抛出空指针异常。
 
-
 ## 未学习
 [不错的随笔分类 - 设计模式+代码+常见源码示例](https://www.cnblogs.com/weixk/category/1759952.html)
-
 [23种设计模式——结构型设计模式（7种）](https://www.cnblogs.com/steffen/p/11546001.html)
 [23种设计模式——创建型设计模式（5种）](https://www.cnblogs.com/steffen/p/11400509.html)
-[【一起学设计模式】状态模式+装饰器模式+简单工厂模式实战：（一）提交个订单我到底经历了什么鬼？](https://www.cnblogs.com/wang-meng/p/12038619.html)
+[状态模式+装饰器模式+简单工厂模式实战：（一）提交个订单我到底经历了什么鬼？](https://www.cnblogs.com/wang-meng/p/12038619.html)
 [常用设计模式的实现，以及Netty中的设计模式](https://www.cnblogs.com/lbhym/p/12844295.html)
 [设计模式第二弹: 不知道怎么提高代码复用性？看看这几种设计模式吧！](https://www.cnblogs.com/dennisj/p/12956859.html)
+[如何在代码中应用设计模式](https://www.cnblogs.com/liyus/p/10508681.html)
+[随笔分类 - headfirst设计模式](https://www.cnblogs.com/skyseavae/category/937670.html)
